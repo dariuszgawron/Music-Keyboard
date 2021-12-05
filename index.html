@@ -6,62 +6,159 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Music keyboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <div class="main">
+        <div class="title">
+            <h2 class="title__text"><span class="title__text--primary">M</span>usic <span class="title__text--primary">k</span>eyboard</h2>
+        </div>
         <div class="keyboard">
             <div class="keyboard__row">
-                <div data-key="65" class="keyboard__key">
-                    <kbd class="keyboard__letter">a</kbd>
-                    <span class="keyboard__sound">clap</span>
-                </div>
-                <div data-key="83" class="keyboard__key">
-                    <kbd class="keyboard__letter">s</kbd>
-                    <span class="keyboard__sound">hihat</span>
-                </div>
-                <div data-key="68" class="keyboard__key">
-                    <kbd class="keyboard__letter">d</kbd>
-                    <span class="keyboard__sound">kick</span>
-                </div>
-                <div data-key="70" class="keyboard__key">
-                    <kbd class="keyboard__letter">f</kbd>
-                    <span class="keyboard__sound">openhat</span>
-                </div>
-                <div data-key="71" class="keyboard__key">
-                    <kbd class="keyboard__letter">g</kbd>
+                <div data-key="Q" class="keyboard__key">
+                    <kbd class="keyboard__letter">q</kbd>
                     <span class="keyboard__sound">boom</span>
                 </div>
-                <div data-key="72" class="keyboard__key">
+                <div data-key="W" class="keyboard__key">
+                    <kbd class="keyboard__letter">w</kbd>
+                    <span class="keyboard__sound">clap</span>
+                </div>
+                <div data-key="E" class="keyboard__key">
+                    <kbd class="keyboard__letter">e</kbd>
+                    <span class="keyboard__sound">clap2</span>
+                </div>
+                <div data-key="R" class="keyboard__key">
+                    <kbd class="keyboard__letter">r</kbd>
+                    <span class="keyboard__sound">crash</span>
+                </div>
+                <div data-key="T" class="keyboard__key">
+                    <kbd class="keyboard__letter">t</kbd>
+                    <span class="keyboard__sound">cymbal</span>
+                </div>
+                <div data-key="Y" class="keyboard__key">
+                    <kbd class="keyboard__letter">y</kbd>
+                    <span class="keyboard__sound">flam</span>
+                </div>
+                <div data-key="U" class="keyboard__key">
+                    <kbd class="keyboard__letter">u</kbd>
+                    <span class="keyboard__sound">fx</span>
+                </div>
+                <div data-key="I" class="keyboard__key">
+                    <kbd class="keyboard__letter">i</kbd>
+                    <span class="keyboard__sound">hihat</span>
+                </div>
+                <div data-key="O" class="keyboard__key">
+                    <kbd class="keyboard__letter">o</kbd>
+                    <span class="keyboard__sound">kick</span>
+                </div>
+                <div data-key="P" class="keyboard__key">
+                    <kbd class="keyboard__letter">p</kbd>
+                    <span class="keyboard__sound">kick2</span>
+                </div>
+            </div>
+
+            <div class="keyboard__row">
+                <div data-key="A" class="keyboard__key">
+                    <kbd class="keyboard__letter">a</kbd>
+                    <span class="keyboard__sound">multicrash</span>
+                </div>
+                <div data-key="S" class="keyboard__key">
+                    <kbd class="keyboard__letter">s</kbd>
+                    <span class="keyboard__sound">openhat</span>
+                </div>
+                <div data-key="D" class="keyboard__key">
+                    <kbd class="keyboard__letter">d</kbd>
+                    <span class="keyboard__sound">openhat2</span>
+                </div>
+                <div data-key="F" class="keyboard__key">
+                    <kbd class="keyboard__letter">f</kbd>
+                    <span class="keyboard__sound">piccolo</span>
+                </div>
+                <div data-key="G" class="keyboard__key">
+                    <kbd class="keyboard__letter">g</kbd>
+                    <span class="keyboard__sound">revcrash</span>
+                </div>
+                <div data-key="H" class="keyboard__key">
                     <kbd class="keyboard__letter">h</kbd>
                     <span class="keyboard__sound">ride</span>
                 </div>
-                <div data-key="74" class="keyboard__key">
+                <div data-key="J" class="keyboard__key">
                     <kbd class="keyboard__letter">j</kbd>
+                    <span class="keyboard__sound">ride2</span>
+                </div>
+                <div data-key="K" class="keyboard__key">
+                    <kbd class="keyboard__letter">k</kbd>
+                    <span class="keyboard__sound">rim</span>
+                </div>
+                <div data-key="L" class="keyboard__key">
+                    <kbd class="keyboard__letter">l</kbd>
+                    <span class="keyboard__sound">rim2</span>
+                </div>
+            </div>
+
+            <div class="keyboard__row">
+                <div data-key="Z" class="keyboard__key">
+                    <kbd class="keyboard__letter">z</kbd>
+                    <span class="keyboard__sound">scratch</span>
+                </div>
+                <div data-key="X" class="keyboard__key">
+                    <kbd class="keyboard__letter">x</kbd>
                     <span class="keyboard__sound">snare</span>
                 </div>
-                <div data-key="75" class="keyboard__key">
-                    <kbd class="keyboard__letter">k</kbd>
+                <div data-key="C" class="keyboard__key">
+                    <kbd class="keyboard__letter">c</kbd>
+                    <span class="keyboard__sound">snare2</span>
+                </div>
+                <div data-key="V" class="keyboard__key">
+                    <kbd class="keyboard__letter">v</kbd>
+                    <span class="keyboard__sound">tamb</span>
+                </div>
+                <div data-key="B" class="keyboard__key">
+                    <kbd class="keyboard__letter">b</kbd>
+                    <span class="keyboard__sound">tink</span>
+                </div>
+                <div data-key="N" class="keyboard__key">
+                    <kbd class="keyboard__letter">n</kbd>
                     <span class="keyboard__sound">tom</span>
                 </div>
-                <div data-key="76" class="keyboard__key">
-                    <kbd class="keyboard__letter">l</kbd>
-                    <span class="keyboard__sound">tink</span>
+                <div data-key="M" class="keyboard__key">
+                    <kbd class="keyboard__letter">m</kbd>
+                    <span class="keyboard__sound">tom2</span>
                 </div>
             </div>
         </div>
     </div>
 
-    <audio data-key="65" src="./sounds/boom.wav"></audio>
-    <audio data-key="83" src="./sounds/clap.wav"></audio>
-    <audio data-key="68" src="./sounds/hihat.wav"></audio>
-    <audio data-key="70" src="./sounds/kick.wav"></audio>
-    <audio data-key="71" src="./sounds/openhat.wav"></audio>
-    <audio data-key="72" src="./sounds/ride.wav"></audio>
-    <audio data-key="74" src="./sounds/snare.wav"></audio>
-    <audio data-key="75" src="./sounds/tink.wav"></audio>
-    <audio data-key="76" src="./sounds/tom.wav"></audio>
+    <audio data-key="Q" src="./sounds/boom.wav"></audio>
+    <audio data-key="W" src="./sounds/clap.wav"></audio>
+    <audio data-key="E" src="./sounds/clap2.wav"></audio>
+    <audio data-key="R" src="./sounds/crash.wav"></audio>
+    <audio data-key="T" src="./sounds/cymbal.wav"></audio>
+    <audio data-key="Y" src="./sounds/flam.wav"></audio>
+    <audio data-key="U" src="./sounds/fx.wav"></audio>
+    <audio data-key="I" src="./sounds/hihat.wav"></audio>
+    <audio data-key="O" src="./sounds/kick.wav"></audio>
+    <audio data-key="P" src="./sounds/kick2.wav"></audio>
+    <audio data-key="A" src="./sounds/multicrash.wav"></audio>
+    <audio data-key="S" src="./sounds/openhat.wav"></audio>
+    <audio data-key="D" src="./sounds/openhat2.wav"></audio>
+    <audio data-key="F" src="./sounds/piccolo.wav"></audio>
+    <audio data-key="G" src="./sounds/revcrash.wav"></audio>
+    <audio data-key="H" src="./sounds/ride.wav"></audio>
+    <audio data-key="J" src="./sounds/ride2.wav"></audio>
+    <audio data-key="K" src="./sounds/rim.wav"></audio>
+    <audio data-key="L" src="./sounds/rim2.wav"></audio>
+    <audio data-key="Z" src="./sounds/scratch.wav"></audio>
+    <audio data-key="X" src="./sounds/snare.wav"></audio>
+    <audio data-key="C" src="./sounds/snare2.wav"></audio>
+    <audio data-key="V" src="./sounds/tamb.wav"></audio>
+    <audio data-key="B" src="./sounds/tink.wav"></audio>
+    <audio data-key="N" src="./sounds/tom.wav"></audio>
+    <audio data-key="M" src="./sounds/tom2.wav"></audio>
 
     <script src="./js/script.js"></script>
 </body>
